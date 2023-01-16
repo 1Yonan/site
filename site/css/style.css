@@ -1,0 +1,513 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 1;
+}
+.wrapper{
+	max-width: 1060px;
+	margin: 0% auto;
+   
+}
+.wrapper{
+	/* background-color:rgb(21, 63, 76); */
+} 
+ 
+ 
+ 
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+
+}
+
+body {
+	line-height: 2;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+
+}
+blockquote:be fore, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+}
+  /* lato-700 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/lato-v23-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+}
+  /* lato-900 - latin */
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/lato-v23-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/lato-v23-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+
+}
+
+
+
+  html{
+      box-sizing: border-box;
+     
+    }
+  *, *::before, *::after{
+      box-sizing: inherit;
+     
+
+}
+
+
+
+
+
+  body{
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: rgb(18, 15, 15);
+
+}
+
+
+ .wrapper{
+    max-width: 1550px;
+    margin: 0 auto;
+    
+
+}
+
+
+
+
+
+ .header{
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;  
+
+}
+
+
+ .header__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end ;
+    justify-content: space-between;
+    padding-top:15px;
+    
+}
+
+
+.header__list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header__item{
+    margin-right: 56px;
+
+}
+
+.header__item:last-child{
+    margin-right: 22;
+
+}
+
+.header__link{
+    font-size: 19px;
+    line-height: 1px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+
+}
+.header__link:hover,.header__link:focus,.header__link:active{
+    opacity: .45;
+
+}
+
+.intro{
+  min-height: 100vh;
+    background:url(../img/63.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 363px;
+    
+}
+
+
+.intro__title{
+    position: absolute;
+    width: 358px;
+    height: 443px;
+    left: 17px;
+    top: 320px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #e8e0e0;
+
+}
+
+
+.header__logo-pic {
+    position: absolute;
+    width: 390px;
+    height: 110px;
+    left: 10px;
+    top: 10px;
+    
+}
+
+.intro__subtitle{
+    position: absolute;
+    width: 600px;
+    height: 306px;
+    left: 920px;
+    top: 600px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 710;
+    font-size: 28px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+}
+
+.search-from__info{
+    position: absolute;
+    width: 611px;
+    height: 20px;
+    left: 16px;
+    top: 550px;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+/*--benifist end-->*/
+
+.benefits__wrap{
+    max-width: 1162px;
+    background-color: #fcfcfc;
+    margin: 0 auto;
+    box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+    position: relative;
+
+}
+
+.benefits__cards{
+    height: 30vh;
+
+}
+
+
+.benefits__title{
+    width: 100%;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 42px;
+    padding: 93px 100px 88px 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background-color: #FFFFFF;
+
+}
+
+.benefits__cards{
+    height: 34vh;
+
+}
+
+.benefits__wrap{
+width: 778px;
+height: 502px;
+top: 189px;
+left: 7px;
+
+}
+
+
+.benefist{
+    width: 3870px;
+    height: 2348px;
+    font-weight: 400px;
+    font-size: 35px;
+    line-height: 12px;
+    left: 10px;
+    top: 0px;
+    flex-wrap: wrap;
+
+}
+
+
+.search-from__info{
+    bottom: 520px;
+    
+}
+
+.benefits__image{
+    width: 10px;
+    font-weight: 40px;
+    font-size: 0px;
+    line-height: 0px;
+
+}
+
+
+
+.benefist__cards{
+   width: 1520px;
+   height:685px;
+   
+  
+}
+
+
+.yonan3{
+    padding-top: 0px;
+    position: absolute;
+    left: 300px;
+    top: 721px;  
+}
+
+.yonan4{
+    padding-top: 0px;
+    position: absolute;
+    left: 0px;
+    top: 1805px;
+}
+
+
+
+.image_img{
+    padding-top: 0px;
+    position: absolute;
+    left: 300px;
+    top: 721px;
+}
+
+
+
+
+.yonan1{
+    padding-top: 0px;
+    position: absolute;
+    left: 300px;
+    top: 721px;
+    }
+
+
+
+.yonan{
+    padding-top:683px;
+    font-weight: 400px;
+    font-size: 100px;
+    line-height: 110px;
+    width: 920px;
+    height: 1084px;
+    top: 70px;
+    left: 500px;
+}
+
+
+.yonan6{
+    padding-top: 1400px;
+    position: absolute;
+    left: 30px;
+    top: 760px; 
+    height: 100px;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.yonan7{
+    padding-top: 1500px;
+    position: absolute;
+    left: 35px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+.yonan8{
+    padding-top: 1560px;
+    position: absolute;
+    left: 35px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+
+.yonan9{
+    padding-top: 950px;
+    position: absolute;
+    left: 4px;
+    top: 700px; 
+    height: 50px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+
+.yonan10{
+    padding-top: 1060px;
+    position: absolute;
+    left: 4px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+
+
+.yonan11{
+    padding-top: 1150px;
+    position: absolute;
+    left: 4px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+
+
+
+
+.yonan12{
+    padding-top: 1295px;
+    position: absolute;
+    left: 4px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+ 
+}
+
+
+.yonan13{
+    padding-top: 1400px;
+    position: absolute;
+    left: 1320px;
+    top: 700px; 
+    height: 10px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
